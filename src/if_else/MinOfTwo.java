@@ -22,3 +22,4 @@ public class MinOfTwo {
         else System.out.println("The numbers are equal");
     }
 }
+

@@ -28,3 +28,4 @@ public class MaxOfFour {
         System.out.println(array[0]);
     }
 }
+
