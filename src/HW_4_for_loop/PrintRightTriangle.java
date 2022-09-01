@@ -1,4 +1,4 @@
-package for_loop;
+package HW_4_for_loop;
 
 public class PrintRightTriangle {
     /*
