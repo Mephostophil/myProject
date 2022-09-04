@@ -1,4 +1,6 @@
-package HW_4.while_loop;
+
+package HW_4.HW_4_while_loop;
+
 
 import java.util.Scanner;
 

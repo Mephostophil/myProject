@@ -1,4 +1,6 @@
-package HW_4.for_loop;
+
+package HW_4.HW_4_for_loop;
+
 
 import java.util.Scanner;
 
@@ -28,4 +30,3 @@ public class PrintRectangle {
         }
     }
 }
-

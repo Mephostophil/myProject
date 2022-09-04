@@ -1,4 +1,5 @@
-package HW_4.while_loop;
+
+package HW_4.HW_4_while_loop;
 
 public class MultiplicationTable {
     /*
@@ -14,7 +15,7 @@ public class MultiplicationTable {
     public static void main(String[] args) {
         int i = 1;
         int j = 1;
-        while (i <= 3) {
+        while (i <= 10) {
             while (j <= 10) {
                 System.out.print((j * i) + " ");
                 if ((j * i) < 10) System.out.print("  ");
