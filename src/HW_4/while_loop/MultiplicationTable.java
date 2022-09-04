@@ -1,4 +1,4 @@
-package while_loop;
+package HW_4.while_loop;
 
 public class MultiplicationTable {
     /*

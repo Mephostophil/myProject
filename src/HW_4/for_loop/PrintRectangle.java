@@ -1,4 +1,4 @@
-package HW_4_for_loop;
+package HW_4.for_loop;
 
 import java.util.Scanner;
 
