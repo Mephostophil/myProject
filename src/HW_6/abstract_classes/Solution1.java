@@ -13,10 +13,13 @@ public class Solution1 {
     public static class Cow extends Animal{
         @Override
         public String getName() {
+            String name;
             return String.valueOf(getClass());
         }
     }
    public static void main(String[] args) {
         System.out.println(Animal.class.getName());
+        Animal cow = new Cow();
+        System.out.println(cow.getClass().getSimpleName());
    }
 }
