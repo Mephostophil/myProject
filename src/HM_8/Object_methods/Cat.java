@@ -39,7 +39,6 @@ public class Cat {
                 ", age: " + age  +
                 ", weight: " + weight;
     }
-
     public static void main(String[] args) {
         Cat Marseak1 = new Cat("Marseak", 1, 3);
         Cat Marseak2 = new Cat("Marseak", 1, 1);

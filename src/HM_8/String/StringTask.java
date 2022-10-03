@@ -58,7 +58,6 @@ public class StringTask {
 
 
     }
-
     public static int getCharQuantityInTheString(String s, char c) {
         char[] charArray = s.toCharArray();
         int counter = 0;
