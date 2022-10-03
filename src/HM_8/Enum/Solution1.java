@@ -15,6 +15,7 @@ public class Solution1 {
         }
     }
 
+
     public enum Alphabet {
         A, B, C, D, E,
         F, G, H, I, J,
