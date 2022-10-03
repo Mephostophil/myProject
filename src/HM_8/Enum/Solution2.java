@@ -11,6 +11,7 @@ public class Solution2 {
         }
 
     }
+
     public enum Week {
         MONDAY(1),
         TUESDAY(2),

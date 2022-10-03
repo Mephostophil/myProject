@@ -14,6 +14,7 @@ public class Solution1 {
             checkingLetter();
         }
     }
+
     public enum Alphabet {
         A, B, C, D, E,
         F, G, H, I, J,
