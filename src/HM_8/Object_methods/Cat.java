@@ -28,6 +28,7 @@ public class Cat {
     }
 
 
+
     @Override
     public int hashCode() {
         return Objects.hash(name, age);
