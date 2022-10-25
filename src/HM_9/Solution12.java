@@ -23,6 +23,7 @@ public class Solution12 {
             if (iterator.next() > 10) iterator.remove();
         }
 
+
         System.out.println(mySet);
     }
 }

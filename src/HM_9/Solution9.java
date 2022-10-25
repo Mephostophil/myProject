@@ -24,9 +24,6 @@ public class Solution9 {
         hashMap.put("potato", "tuber");
         hashMap.put("tomato", "vegetable");
 
-        /*for(HashMap.Entry<String, String> entry: hashMap.entrySet())
-            System.out.println(entry.getKey() + " - " + entry.getValue());*/
-
         Iterator iterator = hashMap.entrySet().iterator();
 
         while (iterator.hasNext())

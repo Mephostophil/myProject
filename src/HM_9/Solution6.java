@@ -12,6 +12,7 @@ public class Solution6 {
     4. Pay attention to the order changed order of the strings
      */
 
+
     public static void main(String[] args) {
         HashSet<String> hashSet = new HashSet<>();
         String[] stringArray = new String[]{"banana", "cherry", "pear", "melon", "blackberry", "ginseng", "strawberry", "toffee", "potato"};

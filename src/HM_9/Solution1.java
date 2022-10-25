@@ -10,6 +10,7 @@ public class Solution1 {
     4. Using loop, print all the items to the console from the List
      */
 
+
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         list.add("first");

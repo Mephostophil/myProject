@@ -12,6 +12,7 @@ public class Solution2 {
     5. If there are several longest strings, print each of them.
      */
 
+
     public static void main(String[] args) {
         String biggestString = "";
 

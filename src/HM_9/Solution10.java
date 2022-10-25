@@ -31,5 +31,6 @@ public class Solution10 {
             Map.Entry<String, String> entry = (Map.Entry<String, String>) iterator.next();
             System.out.println(entry.getValue());
         }
+
     }
 }
