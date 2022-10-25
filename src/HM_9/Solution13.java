@@ -55,7 +55,6 @@ public class Solution13 {
 
     }
 
-
     public static Map<String, String> removeDuplicateNames(Map<String, String> myMap, Map<String, Integer> sortedMap) {
         for (Map.Entry sorted : sortedMap.entrySet()) {
             if ((int) sorted.getValue() > 1) {

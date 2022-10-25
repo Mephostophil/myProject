@@ -12,7 +12,6 @@ public class Solution3 {
     5. If there are several shortest strings, print each of them.
      */
 
-
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         ArrayList<String> listOfMinStrings = new ArrayList<>();

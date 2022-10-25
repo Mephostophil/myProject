@@ -20,7 +20,6 @@ public class Solution8 {
             myHashMap.put(cat.getName(), cat);
         }
 
-
         for(HashMap.Entry<String, Cat> entry: myHashMap.entrySet())
             System.out.println(entry.getKey() + " - " + entry.getValue());
 

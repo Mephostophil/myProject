@@ -26,7 +26,6 @@ public class Solution11 {
         hashMap.put("potato", "0");
         hashMap.put("tomato", "8");
 
-
         Iterator iterator = hashMap.entrySet().iterator();
 
         while (iterator.hasNext())

@@ -20,7 +20,6 @@ public class Solution7 {
         banana - grass
      */
 
-
     public static void main(String[] args) {
         HashMap <String, String> hashMap = new HashMap<>();
         hashMap.put("banana", "grass");

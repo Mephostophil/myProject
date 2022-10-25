@@ -10,7 +10,6 @@ public class Solution9 {
     2. Put 10 Strings there
     3. Print the list of Keys, each key from the new line
      */
-
     public static void main(String[] args) {
         HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("banana", "grass");
