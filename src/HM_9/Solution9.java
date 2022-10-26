@@ -28,7 +28,8 @@ public class Solution9 {
         while (iterator.hasNext())
         {
             Map.Entry<String, String> entry = (Map.Entry<String, String>) iterator.next();
-            System.out.println(entry.getKey() + " - " + entry.getValue());
+            System.out.println(entry.getKey());
         }
+
     }
 }

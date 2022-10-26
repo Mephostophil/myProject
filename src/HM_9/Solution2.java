@@ -17,24 +17,28 @@ public class Solution2 {
 
         System.out.println("Please, enter 5 strings separated by 'Enter' button");
         ArrayList<String> list = fillList();
-
+        ArrayList<String> biggestStrings = new ArrayList<>();
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).length() > biggestString.length()) {
                 biggestString = list.get(i);
+                biggestStrings.clear();
+                biggestStrings.add(list.get(i));
+            } else if (list.get(i).length() == biggestString.length()) {
+                biggestStrings.add(list.get(i));
             }
         }
 
-        System.out.println("The biggest string is: " + biggestString);
+        System.out.println("The biggest string is: " + biggestStrings);
     }
 
-    public static ArrayList<String> fillList() {
-        ArrayList<String> list = new ArrayList<>();
-        Scanner scanner = new Scanner(System.in);
-        for (int i = 0; i < 5; i++) {
-            list.add(scanner.nextLine());
+        public static ArrayList<String> fillList () {
+            ArrayList<String> list = new ArrayList<>();
+            Scanner scanner = new Scanner(System.in);
+            for (int i = 0; i < 5; i++) {
+                list.add(scanner.nextLine());
+            }
+            scanner.close();
+
+            return list;
         }
-        scanner.close();
-
-        return list;
     }
-}
