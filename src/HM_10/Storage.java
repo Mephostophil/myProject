@@ -11,7 +11,6 @@ public class Storage<T> {
         list.add(element);
     }
 
-
     public void getElement() {
         System.out.println("the last element is: " + list.get(list.size() - 1));
         list.remove(list.size() - 1);
