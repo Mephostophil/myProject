@@ -16,6 +16,7 @@ public class ComparatorNameDescending implements Comparator<Cat> {
     7. Demonstrate how they work on main method
     P.S. All the Classes should be in the different files
      */
+
     @Override
     public int compare(Cat cat1, Cat cat2) {
         return (cat1.getName().compareTo(cat2.getName())) * (-1);

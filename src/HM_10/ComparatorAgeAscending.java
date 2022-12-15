@@ -19,7 +19,6 @@ public class ComparatorAgeAscending implements Comparator<Cat> {
     P.S. All the Classes should be in the different files
      */
 
-
     @Override
     public int compare(Cat cat1, Cat cat2) {
         return cat1.getAge() - cat2.getAge();
