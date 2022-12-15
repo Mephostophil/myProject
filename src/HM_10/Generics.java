@@ -10,6 +10,7 @@ public class Generics <T>{
  3. Create method put which saves object of any type to this collection
  4. Create method get which returns the latest added object from the collection and removes it from there
   */
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
