@@ -2,6 +2,7 @@ package HM_10;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 public class Generics <T>{
     /*
  1. Create generic class Storage with 2 methods

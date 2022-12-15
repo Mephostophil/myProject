@@ -3,6 +3,7 @@ package HM_10;
 import java.util.ArrayList;
 import java.util.Comparator;
 
+
 public class ComparatorAgeDescending implements Comparator<Cat> {
         /*
     1. Create class Cat with fields name and age

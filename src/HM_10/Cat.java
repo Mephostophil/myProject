@@ -58,6 +58,7 @@ public class Cat implements Comparable<Cat> {
         }
         System.out.println("///////////////////////////////////////////");
 
+
         System.out.println("Sorting by age ascending:");
         Collections.sort(cats, new ComparatorAgeAscending());
         for (Cat cat : cats) {

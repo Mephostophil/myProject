@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+
 public class ComparatorAgeAscending implements Comparator<Cat> {
         /*
     1. Create class Cat with fields name and age

@@ -2,6 +2,7 @@ package HM_10;
 
 import java.util.ArrayList;
 
+
 public class Storage<T> {
 
     ArrayList<T> list = new ArrayList<>();
